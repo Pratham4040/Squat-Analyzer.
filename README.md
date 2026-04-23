@@ -275,41 +275,41 @@ Alternative script for coords+angles flow:
 
 Training Accuracy and Loss:
 
-<img src="Assets/Screenshots/Model_1_DD-Net%20TCN%20(Best)/Acc_and_Loss_Curve.png" alt="Model 1 - Accuracy and Loss" width="900" />
+<img src="Assets/Screenshots/Model_1_DD-Net%20TCN%20(Best)/Acc_and_Loss_Curve.png" alt="Model 1 - Accuracy and Loss" width="640" />
 
 Confusion Matrix:
 
-<img src="Assets/Screenshots/Model_1_DD-Net%20TCN%20(Best)/Confusion_Matrix.png" alt="Model 1 - Confusion Matrix" width="700" />
+<img src="Assets/Screenshots/Model_1_DD-Net%20TCN%20(Best)/Confusion_Matrix.png" alt="Model 1 - Confusion Matrix" width="480" />
 
 ### Model 2: BiLSTM + Attention
 
 Training Accuracy and Loss:
 
-<img src="Assets/Screenshots/Model_2_BiLSTM%20+%20Attention/Acc_and_Loss_Curve.png" alt="Model 2 - Accuracy and Loss" width="900" />
+<img src="Assets/Screenshots/Model_2_BiLSTM%20+%20Attention/Acc_and_Loss_Curve.png" alt="Model 2 - Accuracy and Loss" width="640" />
 
 Confusion Matrix:
 
-<img src="Assets/Screenshots/Model_2_BiLSTM%20+%20Attention/Confusion_Matrix.png" alt="Model 2 - Confusion Matrix" width="700" />
+<img src="Assets/Screenshots/Model_2_BiLSTM%20+%20Attention/Confusion_Matrix.png" alt="Model 2 - Confusion Matrix" width="480" />
 
 ### Model 3: BiLSTM + Attention + Dropout
 
 Training Accuracy and Loss:
 
-<img src="Assets/Screenshots/Model_3_BiLSTM%20+%20Attn%20+%20Dropout/Acc_and_Loss_Curve.png" alt="Model 3 - Accuracy and Loss" width="900" />
+<img src="Assets/Screenshots/Model_3_BiLSTM%20+%20Attn%20+%20Dropout/Acc_and_Loss_Curve.png" alt="Model 3 - Accuracy and Loss" width="640" />
 
 Confusion Matrix:
 
-<img src="Assets/Screenshots/Model_3_BiLSTM%20+%20Attn%20+%20Dropout/Confusion_Matrix.png" alt="Model 3 - Confusion Matrix" width="700" />
+<img src="Assets/Screenshots/Model_3_BiLSTM%20+%20Attn%20+%20Dropout/Confusion_Matrix.png" alt="Model 3 - Confusion Matrix" width="480" />
 
 ### Model 4: Coords + Angles
 
 Training Accuracy and Loss:
 
-<img src="Assets/Screenshots/Model4_Cords+Angles/Acc_and_Loss_Curve.png" alt="Model 4 - Accuracy and Loss" width="900" />
+<img src="Assets/Screenshots/Model4_Cords+Angles/Acc_and_Loss_Curve.png" alt="Model 4 - Accuracy and Loss" width="640" />
 
 Confusion Matrix:
 
-<img src="Assets/Screenshots/Model4_Cords+Angles/Confusion_Matrix.png" alt="Model 4 - Confusion Matrix" width="700" />
+<img src="Assets/Screenshots/Model4_Cords+Angles/Confusion_Matrix.png" alt="Model 4 - Confusion Matrix" width="480" />
 
 ### Live Demo Screenshots
 
@@ -317,15 +317,15 @@ Add your live demo screenshots in the same folder and replace the placeholders b
 
 1. Live prediction screen
 
-<img src="Assets/Screenshots/live_demo_prediction.png" alt="Live Demo - Prediction" width="900" />
+<img src="Assets/Screenshots/live_demo_prediction.png" alt="Live Demo - Prediction" width="640" />
 
 2. Live rep counter screen
 
-<img src="Assets/Screenshots/live_demo_rep_counter.png" alt="Live Demo - Rep Counter" width="900" />
+<img src="Assets/Screenshots/live_demo_rep_counter.png" alt="Live Demo - Rep Counter" width="640" />
 
 3. Live posture correction feedback (optional)
 
-<img src="Assets/Screenshots/live_demo_feedback.png" alt="Live Demo - Feedback" width="900" />
+<img src="Assets/Screenshots/live_demo_feedback.png" alt="Live Demo - Feedback" width="640" />
 
 Screenshot size guideline:
 1. Prefer image width around 1280 px or less before upload

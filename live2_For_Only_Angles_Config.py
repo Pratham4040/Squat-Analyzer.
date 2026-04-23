@@ -11,8 +11,8 @@ from tensorflow import keras
 # CONFIG
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-KERAS_MODEL_PATH = r'C:\ANYFITCOACH\SquatsModelTest\Squats_Model\best_model (10).keras'
-SCALER_JSON_PATH = r'C:\ANYFITCOACH\SquatsModelTest\Squats_Model\scaler_params (10).json'
+KERAS_MODEL_PATH = r'C:\ANYFITCOACH\SquatsModelTest\Squats_Model\best_model (9).keras'
+SCALER_JSON_PATH = r'C:\ANYFITCOACH\SquatsModelTest\Squats_Model\scaler_params (9).json'
 
 CLASS_NAMES = [
     'Incorrect Posture',
