@@ -27,6 +27,91 @@ Expected class folders:
 4. Not a Squat
 5. Perfect Squats
 
+## Setup Instructions for Live Demo
+
+### Prerequisites
+- Python 3.8+
+- Webcam (connected to your computer)
+- GPU recommended for faster inference (optional but recommended)
+
+### Installation
+
+1. **Navigate to the SquatsModelTest directory:**
+   ```bash
+   cd SquatsModelTest
+   ```
+
+2. **Create a virtual environment (recommended):**
+   ```bash
+   python -m venv squat_venv
+   ```
+
+3. **Activate the virtual environment:**
+   - **Windows:**
+     ```bash
+     squat_venv\Scripts\activate
+     ```
+   - **macOS/Linux:**
+     ```bash
+     source squat_venv/bin/activate
+     ```
+
+4. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Running live2_For_Only_Angles_Config.py
+
+This script runs real-time squat classification using only joint angles (camera invariant).
+
+#### Prerequisites
+- Trained model: `Squats_Model/best_model (9).keras`
+- Scaler parameters: `Squats_Model/scaler_params (9).json`
+- These files must be in the `Squats_Model/` subdirectory
+
+#### Running the Script
+
+```bash
+python live2_For_Only_Angles_Config.py
+```
+
+#### Configuration
+
+Before running, update these paths in the script if needed:
+- `KERAS_MODEL_PATH` — path to your trained .keras model
+- `SCALER_JSON_PATH` — path to your scaler_params.json file
+
+#### Controls
+
+- **Q** — Quit the application
+- **R** — Reset rep counter and state machine
+
+#### Output Display
+
+The script displays:
+- **Live pose detection** — skeleton overlay on video feed
+- **Squat classification** — predicted class with confidence bar
+- **Rep counter** — number of completed reps
+- **State indicator** — IDLE, SQUATTING, or COMPLETE
+- **Probability bars** — confidence distribution across all 5 classes
+- **FPS counter** — frames per second
+
+#### Squat Detection Logic
+
+- **Knee angle threshold**: 130° (configurable via `SQUAT_ANGLE`)
+- **States**:
+  - **IDLE** — Standing position (knee angle > 130°)
+  - **SQUATTING** — Active squat (knee angle < 130°)
+  - **COMPLETE** — Rep completed when returning to standing
+- **Rep increments** when transitioning from SQUATTING → COMPLETE
+
+#### Model Classification Confidence
+
+- **Threshold**: 30% (configurable via `CONF_THRESH`)
+- Classes shown only when confidence exceeds threshold
+- Otherwise displays "Positioning..." during buffer fill phase
+
 ## V2 Notebook Pipelines
 
 Reference notebook: [SquatsModelTest/Colab/squat_classifier_final_V2.ipynb](SquatsModelTest/Colab/squat_classifier_final_V2.ipynb)
