@@ -1,0 +1,27 @@
+{
+  "class_names": [
+    "Incorrect Posture",
+    "Legs too Narrow",
+    "Legs too Wide",
+    "Not a Squat",
+    "Perfect Squats"
+  ],
+  "kept_landmarks": [
+    11,
+    12,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "feat_dim": 10,
+  "window_size": 45,
+  "stride": 12,
+  "target_fps": 30
+}
