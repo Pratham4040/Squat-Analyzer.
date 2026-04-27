@@ -59,7 +59,7 @@ Classes used:
 
 | Model | Name | Parameter Size |
 |---|---|---|
-| Model 1 | DD-Net TCN (Best) | 8.6L params |
+| Model 1 | DD-Net TCN (Best) | 8.6K params |
 | Model 2 | BiLSTM + Attention | 130K params |
 | Model 3 | BiLSTM + Attention + Dropout | 130K params |
 | Model 4 | Coords + Angles | 470K params |
