@@ -5,30 +5,40 @@
 ### Prerequisites
 - Python 3.8+
 - Webcam
-- Model file: Squats_Model/best_model (9).keras
-- Scaler file: Squats_Model/scaler_params (9).json
+- Model file: `Squats_Model/best_model (9).keras`
+- Scaler file: `Squats_Model/scaler_params (9).json`
 
 ### Setup
 1. Open terminal in the project folder.
 2. Create a virtual environment:
 
+   ```bash
    python -m venv squat_venv
+   ```
 
 3. Activate the virtual environment:
 
    Windows:
+   ```bash
    squat_venv\Scripts\activate
+   ```
 
    macOS/Linux:
+   ```bash
    source squat_venv/bin/activate
+   ```
 
 4. Install dependencies:
 
+   ```bash
    pip install -r requirements.txt
+   ```
 
 ### Run
 
+```bash
 python live2_For_Only_Angles_Config.py
+```
 
 ### Controls
 - Q: Quit
